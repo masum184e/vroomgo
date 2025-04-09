@@ -1,0 +1,65 @@
+# === Node.js / Next.js ===
+node_modules/
+.next/
+out/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Optional Next.js static export output
+out/
+
+# === Android (Java + XML) ===
+*.iml
+.gradle/
+local.properties
+/.idea/
+*.hprof
+/build/
+/captures/
+/.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.keystore
+*.jks
+
+# Android Studio
+.idea/
+*.iws
+*.ipr
+*.iml
+*.swp
+
+# Auto-generated files
+gen/
+bin/
+
+# Mac system files
+.DS_Store
+
+# === Common ===
+Thumbs.db
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# OS metadata
+ehthumbs.db
+Icon?
+Desktop.ini
