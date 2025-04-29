@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
        new Handler().postDelayed(() -> {
-           startActivity(new Intent(SplashActivity.this, MainActivity.class));
+           startActivity(new Intent(SplashActivity.this, SignupActivity.class));
            finish();
        }, 2000);
 
