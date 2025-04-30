@@ -1,5 +1,6 @@
 package com.example.vroomgo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.ArrayAdapter;
@@ -23,16 +24,14 @@ public class SignupActivity extends AppCompatActivity {
         binding.btnRegister.setOnClickListener(v -> {
             if (validateInputs()) {
                 Toast.makeText(this, "Registration successful!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(SignupActivity.this, MainActivity.class));
+                finish();
             }
         });
     }
 
     private void setupSpinner() {
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
-                this,
-                R.array.user_roles,
-                android.R.layout.simple_dropdown_item_1line
-        );
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.user_roles, android.R.layout.simple_dropdown_item_1line);
 
         binding.roleSpinner.setAdapter(adapter);
     }
@@ -68,10 +67,10 @@ public class SignupActivity extends AppCompatActivity {
         }
 
         if (TextUtils.isEmpty(role)) {
-            binding.roleSpinnerLayout.setError("Please select a role");
+            binding.roleContainerLayout.setError("Please select a role");
             return false;
         } else {
-            binding.roleSpinnerLayout.setError(null);
+            binding.roleContainerLayout.setError(null);
         }
 
         if (TextUtils.isEmpty(password)) {

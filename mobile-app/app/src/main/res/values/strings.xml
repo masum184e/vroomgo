@@ -30,4 +30,11 @@
         <item>Driver</item>
         <item>Renter</item>
     </string-array>
+
+    <string name="title_history">History</string>
+    <string name="title_request">Request</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_setting">Setting</string>
+
 </resources>
