@@ -22,11 +22,12 @@ public class SignupActivity extends AppCompatActivity {
         setupSpinner();
 
         binding.btnRegister.setOnClickListener(v -> {
-            if (validateInputs()) {
-                Toast.makeText(this, "Registration successful!", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(SignupActivity.this, MainActivity.class));
-                finish();
-            }
+                            startActivity(new Intent(SignupActivity.this, MainActivity.class));
+//            if (validateInputs()) {
+//                Toast.makeText(this, "Registration successful!", Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(SignupActivity.this, MainActivity.class));
+//                finish();
+//            }
         });
     }
 
