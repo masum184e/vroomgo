@@ -129,12 +129,12 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="20sp"
-            app:backgroundTint="@color/aqua_green"
+            app:backgroundTint="@color/primary"
             app:elevation="6dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/confirm_password_layout"
-            app:rippleColor="@color/aqua_green" />
+            app:rippleColor="@color/primary" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
