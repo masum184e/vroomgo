@@ -121,7 +121,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:fillViewport="true"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintTop_toBottomOf="@id/filter_scroll"
         app:layout_constraintBottom_toBottomOf="parent">
 
@@ -131,15 +131,15 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
-            <include layout="@layout/item_history_card" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
+            <include layout="@layout/item_history" />
 
 
             <!-- Add as many as you want -->
@@ -152,7 +152,7 @@
         android:id="@+id/empty_state"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
