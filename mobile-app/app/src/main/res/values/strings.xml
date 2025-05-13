@@ -7,9 +7,19 @@
     <string name="welcome_again">Welcome Again!</string>
 
     <!-- Sample Data -->
-<string name="sample_name">John Doe</string>
+    <string name="sample_name">John Doe</string>
     <string name="sample_email">john@gmail.com</string>
     <string name="sample_mobile">+8801400000000</string>
+    <string name="sample_car">Tesla Model 3</string>
+    <string name="sample_start_end_date">01 Jan, 2000 - 31 Dec, 2000</string>
+    <string name="sample_start_date">01 Jan, 2000</string>
+    <string name="sample_end_date">31 Dec, 2000</string>
+    <string name="sample_amount">৳ 5,000</string>
+    <string name="sample_seat">5 Seats</string>
+    <string name="sample_rating">4.8</string>
+    <string name="sample_car_type">Electric</string>
+    <string name="sample_price">$45/day</string>
+    <string name="sample_engine">Manual</string>
 
     <!-- Sign In -->
     <string name="identifier">Identifier</string>
@@ -40,9 +50,11 @@
     </string-array>
 
     <!-- Profile -->
+    <string name="edit_profile">Edit Profile</string>
     <string name="total_rides">Total Rides</string>
     <string name="total_drive">Total Drive</string>
-   <string name="zero">00</string>
+    <string name="next">Next</string>
+    <string name="zero">00</string>
     <string name="account_settings">Account Settings</string>
     <string name="vehicle_information">Vehicle Information</string>
     <string name="availability">Availability</string>
@@ -50,6 +62,27 @@
     <string name="complain">Complain</string>
     <string name="change_password">Change Password</string>
     <string name="logout">Logout</string>
+
+    <!-- History -->
+    <string name="total_amount">Total Amount</string>
+    <string name="view_details">View Details</string>
+    <string name="all">All</string>
+    <string name="pending">Pending</string>
+    <string name="active">Active</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="no_history_found">No History Found</string>
+    <string name="no_history_found_desc">You haven\'t rented any cars yet. Start exploring our collection and book your first ride!</string>
+    <string name="browse_cars">Browse Cars</string>
+
+    <!-- Home -->
+    <string name="suv">SUV</string>
+    <string name="sedan">Sedan</string>
+    <string name="luxury">Luxury</string>
+    <string name="sports">Sports</string>
+    <string name="truck">Truck</string>
+    <string name="bus">Bus</string>
+    <string name="search_hint">Search For Cars ..</string>
 
     <!-- Bottom Navigation -->
     <string name="title_history">History</string>
