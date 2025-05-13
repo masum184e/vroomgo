@@ -2,14 +2,22 @@
     <string name="app_name">VroomGo</string>
     <string name="tag_line">Rent a car, Embark your journey</string>
 
+    <!-- Splash Screen -->
     <string name="get_started">Get Started</string>
     <string name="welcome_again">Welcome Again!</string>
 
+    <!-- Sample Data -->
+<string name="sample_name">John Doe</string>
+    <string name="sample_email">john@gmail.com</string>
+    <string name="sample_mobile">+8801400000000</string>
+
+    <!-- Sign In -->
     <string name="identifier">Identifier</string>
     <string name="identifier_hint">Enter Your Email or Mobile Number</string>
     <string name="password">Password</string>
     <string name="password_hint">Enter Your Password</string>
 
+    <!-- Sign Up -->
     <string name="full_name">Full Name</string>
     <string name="full_name_hint">Enter Your Full Name</string>
     <string name="email">Email</string>
@@ -31,6 +39,19 @@
         <item>Renter</item>
     </string-array>
 
+    <!-- Profile -->
+    <string name="total_rides">Total Rides</string>
+    <string name="total_drive">Total Drive</string>
+   <string name="zero">00</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="vehicle_information">Vehicle Information</string>
+    <string name="availability">Availability</string>
+    <string name="take_leave">Take Leave</string>
+    <string name="complain">Complain</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+
+    <!-- Bottom Navigation -->
     <string name="title_history">History</string>
     <string name="title_request">Request</string>
     <string name="title_home">Home</string>
