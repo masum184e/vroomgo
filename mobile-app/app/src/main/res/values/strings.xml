@@ -20,6 +20,7 @@
     <string name="sample_car_type">Electric</string>
     <string name="sample_price">$45/day</string>
     <string name="sample_engine">Manual</string>
+    <string name="sample_app_version">1.0.0</string>
 
     <!-- Sign In -->
     <string name="identifier">Identifier</string>
@@ -83,6 +84,19 @@
     <string name="truck">Truck</string>
     <string name="bus">Bus</string>
     <string name="search_hint">Search For Cars ..</string>
+
+    <!-- Setting -->
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="location_services">Location Services</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="app_version">App Version</string>
+    <string name="setting_search_hint">Search for a setting ...</string>
+
+    <!-- Request -->
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
 
     <!-- Bottom Navigation -->
     <string name="title_history">History</string>
