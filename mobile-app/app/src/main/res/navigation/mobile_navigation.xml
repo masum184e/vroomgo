@@ -6,16 +6,16 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.vroomgo.fragments.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
         android:id="@+id/navigation_history"
         android:name="com.example.vroomgo.fragments.HistoryFragment"
         android:label="@string/title_history"
         tools:layout="@layout/fragment_history" />
-
-    <fragment
-        android:id="@+id/navigation_request"
-        android:name="com.example.vroomgo.fragments.RequestFragment"
-        android:label="@string/title_request"
-        tools:layout="@layout/fragment_request" />
 
     <fragment
         android:id="@+id/navigation_home"
@@ -24,10 +24,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_profile"
-        android:name="com.example.vroomgo.fragments.ProfileFragment"
-        android:label="@string/title_profile"
-        tools:layout="@layout/fragment_profile" />
+        android:id="@+id/navigation_request"
+        android:name="com.example.vroomgo.fragments.RequestFragment"
+        android:label="@string/title_request"
+        tools:layout="@layout/fragment_request" />
 
     <fragment
         android:id="@+id/navigation_setting"
