@@ -60,7 +60,6 @@
     <string name="vehicle_information">Vehicle Information</string>
     <string name="availability">Availability</string>
     <string name="take_leave">Take Leave</string>
-    <string name="complain">Complain</string>
     <string name="change_password">Change Password</string>
     <string name="logout">Logout</string>
 
@@ -104,5 +103,33 @@
     <string name="title_home">Home</string>
     <string name="title_profile">Profile</string>
     <string name="title_setting">Setting</string>
+
+    <!-- Complaint -->
+    <string name="title_complaint">Complaint</string>
+    <string name="file_a_complaint">File a Complaint</string>
+    <string name="complaint_subtitle">Please provide details about your complaint. We\'ll review it as soon as possible.</string>
+    <string name="complaint_title">Complaint Title</string>
+    <string name="complaint_type">Complaint Type</string>
+    <string name="description">Description</string>
+    <string name="attach_images">Attach Images (Optional)</string>
+    <string name="select_files">Select Files</string>
+    <string name="add_photos_documents">Add photos or other documents</string>
+    <string name="submit">Submit</string>
+
+    <!-- Change Password -->
+    <string name="title_change_password">Change Password</string>
+    <string name="update_your_password">Update Your Password</string>
+    <string name="update_password_para">Create a strong password with at least 8 characters including letters, numbers, and special characters</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="password_strength">Password Strength:</string>
+    <string name="weak">Weak</string>
+    <string name="password_requirements">Password Requirements:</string>
+    <string name="at_least_8_characters">At least 8 characters</string>
+    <string name="at_least_one_uppercase_letter">At least one uppercase letter</string>
+    <string name="at_least_one_number">At least one number</string>
+    <string name="at_least_one_special_character">At least one special character</string>
+    <string name="update_password">Update Password</string>
 
 </resources>
