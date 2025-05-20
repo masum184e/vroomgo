@@ -135,41 +135,28 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@drawable/bg_dashed_border"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="12dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="32dp"
             app:layout_constraintTop_toBottomOf="@+id/attachment_title"
             tools:layout_editor_absoluteX="16dp">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:background="@drawable/ic_attachment"
-                android:padding="8dp"
-                android:src="@drawable/ic_attachment" />
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_upload" />
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_weight="1"
-                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
                 android:text="@string/add_photos_documents"
-                android:textSize="14sp" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_add_attachment"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:backgroundTint="@color/primary"
-                android:text="@string/select_files"
-                android:textAllCaps="false"
-                android:textColor="#FFFFFF"
-                app:cornerRadius="8dp"
-                app:icon="@drawable/ic_add"
-                app:iconGravity="textStart"
-                app:iconTint="#FFFFFF" />
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/complaint_title_header" />
 
         </LinearLayout>
 
@@ -186,7 +173,6 @@
             android:textSize="16sp"
             app:cornerRadius="5dp"
             app:elevation="4dp"
-            app:icon="@drawable/ic_send"
             app:iconGravity="textEnd"
             app:iconTint="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"

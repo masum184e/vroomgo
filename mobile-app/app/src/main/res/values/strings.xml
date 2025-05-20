@@ -114,6 +114,7 @@
     <string name="attach_images">Attach Images (Optional)</string>
     <string name="select_files">Select Files</string>
     <string name="add_photos_documents">Add photos or other documents</string>
+    <string name="drag_and_drop_here">Drag and drop here</string>
     <string name="submit">Submit</string>
 
     <!-- Change Password -->
