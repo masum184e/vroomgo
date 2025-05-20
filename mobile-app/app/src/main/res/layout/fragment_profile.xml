@@ -380,7 +380,7 @@
                         <ImageView
                             android:layout_width="24dp"
                             android:layout_height="24dp"
-                            android:contentDescription="@string/complain"
+                            android:contentDescription="@string/title_complaint"
                             android:src="@drawable/ic_complain" />
 
                         <TextView
@@ -388,7 +388,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="16dp"
                             android:layout_weight="1"
-                            android:text="@string/complain"
+                            android:text="@string/title_complaint"
                             android:textColor="@color/primary"
                             android:textSize="16sp" />
 
