@@ -331,43 +331,6 @@
                         android:background="@color/primary" />
 
                     <LinearLayout
-                        android:id="@+id/take_leave"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="?attr/selectableItemBackground"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:orientation="horizontal"
-                        android:padding="16dp">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:contentDescription="@string/take_leave"
-                            android:src="@drawable/ic_calendar_off" />
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:layout_weight="1"
-                            android:text="@string/take_leave"
-                            android:textColor="@color/primary"
-                            android:textSize="16sp" />
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:contentDescription="@string/next"
-                            android:src="@drawable/ic_right" />
-                    </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/primary" />
-
-                    <LinearLayout
                         android:id="@+id/complain"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
