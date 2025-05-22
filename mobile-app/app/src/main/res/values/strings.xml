@@ -133,4 +133,20 @@
     <string name="at_least_one_special_character">At least one special character</string>
     <string name="update_password">Update Password</string>
 
+    <!-- Availability -->
+    <string name="title_availability">Availability</string>
+    <string name="select_available_dates">Select Available Dates</string>
+    <string name="tap_on_dates">Tap on dates to mark them as available or unavailable></string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="booked">Booked</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="mark_all_available">Mark All Available></string>
+    <string name="mark_all_unavailable">Mark All Unavailable</string>
+    <string name="mark_yourself_unavailable">Mark yourself unavailable for a specific period</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="reason">Reason (Optional) </string>
+    <string name="select_date">Select Date</string>
+
 </resources>
