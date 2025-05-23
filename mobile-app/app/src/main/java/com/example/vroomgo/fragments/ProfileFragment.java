@@ -23,9 +23,7 @@ public class ProfileFragment extends Fragment {
 
         setClickListener(view, R.id.complain, ComplaintActivity.class);
         setClickListener(view, R.id.change_password, ChangePasswordActivity.class);
-        setClickListener(view, R.id.vehicle, UploadVehicleActivity.class);
         setClickListener(view, R.id.availability, AvailabilityCalendarActivity.class);
-        setClickListener(view, R.id.logout, BookingDetailsActivity.class);
 
         return view;
     }
