@@ -17,10 +17,17 @@
     <string name="sample_amount">৳ 5,000</string>
     <string name="sample_seat">5 Seats</string>
     <string name="sample_rating">4.8</string>
+    <string name="sample_car_details_summary">Premium Sedan • 4 Seats • Automatic</string>
     <string name="sample_car_type">Electric</string>
     <string name="sample_price">$45/day</string>
     <string name="sample_engine">Manual</string>
+    <string name="sample_fuel">Gasoline</string>
     <string name="sample_app_version">1.0.0</string>
+    <string name="sample_address">456 Park Avenue, New York, NY 10022</string>
+    <string name="sample_duration">Total Duration: 3 Days</string>
+    <string name="sample_review">Great car! Very clean and drives smoothly. The owner was very responsive and helpful. Would definitely rent again.</string>
+    <string name="sample_rating_details_summary">4.5 (128 reviews)</string>
+    <string name="sample_car_description">Experience luxury and performance with our premium SUV. This vehicle offers a smooth ride, spacious interior, and advanced technology features. Perfect for family trips or business travel.</string>
 
     <!-- Sign In -->
     <string name="identifier">Identifier</string>
@@ -148,5 +155,42 @@
     <string name="end_date">End Date</string>
     <string name="reason">Reason (Optional) </string>
     <string name="select_date">Select Date</string>
+
+    <!-- Booking Details -->
+    <string name="booking_progress">Booking Progress</string>
+    <string name="details">Details</string>
+    <string name="payment">Payment</string>
+    <string name="confirm">Confirm</string>
+    <string name="rental_period">Rental Period</string>
+    <string name="select_time">Select Time</string>
+    <string name="pickup_date">Pickup Date</string>
+    <string name="pickup_time">Pickup Time</string>
+    <string name="drop_off_date">Drop-off Date</string>
+    <string name="drop_off_time">Drop-off Time</string>
+    <string name="pickup_location">Pickup Location</string>
+    <string name="drop_off_location">Drop-off Location</string>
+    <string name="trip_details">Trip Details</string>
+    <string name="number_of_passengers">Number of Passengers</string>
+    <string name="number_of_stoppages">Number of Stoppages</string>
+    <string name="passengers">Passengers</string>
+    <string name="stoppages">Stoppages</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="call">Call</string>
+    <string name="message">Message</string>
+    <string name="continue_payment">Continue to Payment</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+
+    <!-- Car Details -->
+    <string name="two_days_ago">2 days ago</string>
+    <string name="num_star">5</string>
+    <string name="step_size">0.5</string>
+    <string name="features">Features</string>
+    <string name="driver_information">Driver Information</string>
+    <string name="location">Location</string>
+    <string name="reviews">Reviews</string>
+    <string name="book_now">Book Now</string>
 
 </resources>
