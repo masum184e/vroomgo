@@ -48,6 +48,8 @@
                 android:textStyle="bold" />
 
             <ImageView
+                android:id="@+id/notification_btn"
+                android:clickable="true"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
                 android:layout_gravity="end"
