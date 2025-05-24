@@ -10,11 +10,9 @@ import android.widget.LinearLayout;
 import androidx.fragment.app.Fragment;
 
 import com.example.vroomgo.AvailabilityCalendarActivity;
-import com.example.vroomgo.BookingDetailsActivity;
 import com.example.vroomgo.ChangePasswordActivity;
 import com.example.vroomgo.ComplaintActivity;
 import com.example.vroomgo.R;
-import com.example.vroomgo.UploadVehicleActivity;
 
 public class ProfileFragment extends Fragment {
     @Override
