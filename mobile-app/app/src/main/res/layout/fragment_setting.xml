@@ -145,7 +145,8 @@
                         android:layout_width="24dp"
                         android:layout_height="24dp"
                         android:contentDescription="@string/location_services"
-                        android:src="@drawable/ic_location" />
+                        android:src="@drawable/ic_location"
+                        app:tint="@color/primary"/>
 
                     <TextView
                         android:layout_width="0dp"
