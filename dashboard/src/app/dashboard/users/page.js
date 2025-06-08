@@ -198,7 +198,6 @@ const page = () => {
   ]
   return (
     <div className="p-4">
-      <Navbar pageName="Users" />
       <table className="w-full text-gray-600">
         <thead>
           <tr className='border-b'>
