@@ -123,10 +123,6 @@ const page = () => {
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
-                            <Button >
-                                <Plus className="h-4 w-4 mr-2" />
-                                Add Vehicle
-                            </Button>
                         </div>
                     </div>
                 </CardContent>
