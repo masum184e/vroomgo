@@ -12,7 +12,7 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
+    --primary: #00d98b;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96%;
     --secondary-foreground: 222.2 84% 4.9%;
@@ -24,7 +24,7 @@
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
+    --ring: #00d98b;
     --radius: 0.5rem;
   }
 
@@ -62,5 +62,10 @@
 
   .bg-card{
     background-color: hsl(var(--card))
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+    color: hsl(var(--primary-foreground));
   }
 }
