@@ -96,8 +96,8 @@ export default function Sidebar() {
 
           <div className="p-4 border-t border-gray-200">
             <Button
-              variant="ghost"
-              className="w-full justify-start text-red-600 hover:text-red-700 hover:bg-red-50"
+              variant="default"
+              className="w-full justify-start text-white-600"
             >
               <LogOut className="mr-3 h-5 w-5" />
               Logout
