@@ -2,6 +2,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectLabel,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 import { Plus, Search, Edit, Trash2, Eye, Car, MapPin, DollarSign } from "lucide-react"
 import Image from "next/image"
 
@@ -92,7 +101,7 @@ const page = () => {
             {/* Filters */}
             <Card>
                 <CardContent className="">
-                    <div className="flex flex-col sm:flex-row gap-4">
+                    <div className="flex flex-col sm:flex-row gap-4 bg-card">
                         <div className="relative flex-1">
                             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-4 w-4" />
                             <Input
@@ -101,11 +110,20 @@ const page = () => {
                             />
                         </div>
                         <div className="flex gap-2">
-                            <Button variant="outline">All</Button>
-                            <Button variant="outline">Available</Button>
-                            <Button variant="outline">Rented</Button>
-                            <Button variant="outline">Maintenance</Button>
-                            <Button>
+                            <Select>
+                                <SelectTrigger className="w-[180px]">
+                                    <SelectValue placeholder="All" />
+                                </SelectTrigger>
+                                <SelectContent className="bg-card">
+                                    <SelectGroup>
+                                        <SelectItem value="all">All</SelectItem>
+                                        <SelectItem value="available">Available</SelectItem>
+                                        <SelectItem value="rented">Rented</SelectItem>
+                                        <SelectItem value="maintenance">Maintenance</SelectItem>
+                                    </SelectGroup>
+                                </SelectContent>
+                            </Select>
+                            <Button >
                                 <Plus className="h-4 w-4 mr-2" />
                                 Add Vehicle
                             </Button>
@@ -117,13 +135,13 @@ const page = () => {
             {/* Vehicle Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {vehicles.map((vehicle) => (
-                    <Card key={vehicle.id} className="overflow-hidden">
-                        <div className="aspect-video bg-gray-200">
+                    <Card key={vehicle.id} className="overflow-hidden pt-0">
+                        <div className="aspect-video bg-blue-900 h-60">
                             <Image
-                                width={300}
-                                height={100}
                                 src={vehicle.image || "/placeholder.svg"}
                                 alt={`${vehicle.make} ${vehicle.model}`}
+                                width={100}
+                                height={100}
                                 className="w-full h-full object-cover"
                             />
                         </div>
